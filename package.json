@@ -237,6 +237,7 @@
       "atom-beautify:beautify-language-c#",
       "atom-beautify:beautify-language-c",
       "atom-beautify:beautify-language-clojure",
+      "atom-beautify:beautify-language-cmake",
       "atom-beautify:beautify-language-coffeescript",
       "atom-beautify:beautify-language-coldfusion",
       "atom-beautify:beautify-language-c++",
@@ -446,7 +447,8 @@
     "vhdl",
     "vhdl beautifier",
     "gn",
-    "blade"
+    "blade",
+    "cmake"
   ],
   "devDependencies": {
     "codo": "^2.1.2",
