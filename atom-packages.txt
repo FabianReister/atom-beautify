@@ -9,3 +9,4 @@ language-puppet
 fuse
 react
 language-blade
+language-cmake
