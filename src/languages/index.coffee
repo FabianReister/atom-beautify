@@ -19,6 +19,7 @@ module.exports = class Languages
     "c-sharp"
     "c"
     "clojure"
+    "cmake"
     "coffeescript"
     "coldfusion"
     "cpp"
