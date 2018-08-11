@@ -665,6 +665,52 @@
       }
     }
   },
+  "cmake": {
+    "title": "CMake",
+    "type": "object",
+    "description": "Options for language CMake",
+    "collapsed": true,
+    "scope": [
+      "text.html"
+    ],
+    "beautifiers": [
+      "cmake-format"
+    ],
+    "grammars": [
+      "cmake",
+      "CMake Listfile"
+    ],
+    "extensions": [
+      "txt",
+      "cmake"
+    ],
+    "properties": {
+      "disabled": {
+        "title": "Disable Beautifying Language",
+        "order": -3,
+        "type": "boolean",
+        "default": false,
+        "description": "Disable CMake Beautification"
+      },
+      "default_beautifier": {
+        "title": "Default Beautifier",
+        "order": -2,
+        "type": "string",
+        "default": "cmake-format",
+        "description": "Default Beautifier to be used for CMake",
+        "enum": [
+          "cmake-format"
+        ]
+      },
+      "beautify_on_save": {
+        "title": "Beautify On Save",
+        "order": -1,
+        "type": "boolean",
+        "default": false,
+        "description": "Automatically beautify CMake files on save"
+      }
+    }
+  },
   "coffeescript": {
     "title": "CoffeeScript",
     "type": "object",
@@ -9420,6 +9466,22 @@
             "type": "string",
             "default": "",
             "description": "Absolute path to the \"clang-format\" executable's binary/script."
+          }
+        }
+      },
+      "cmake-format": {
+        "key": "cmake-format",
+        "title": "CMake Format",
+        "type": "object",
+        "collapsed": true,
+        "description": "Options for CMake Format executable.",
+        "properties": {
+          "path": {
+            "key": "path",
+            "title": "Binary/Script Path",
+            "type": "string",
+            "default": "cmake-format",
+            "description": "Absolute path to the \"cmake-format\" executable's binary/script."
           }
         }
       },
