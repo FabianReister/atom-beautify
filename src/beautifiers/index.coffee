@@ -42,6 +42,7 @@ module.exports = class Beautifiers extends EventEmitter
     'coffee-fmt'
     'cljfmt'
     'clang-format'
+    'cmake-format'
     'crystal'
     'dfmt'
     'elm-format'
